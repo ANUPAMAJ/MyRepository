@@ -1,0 +1,147 @@
+body{
+	margin: auto;
+	background-color:#99e6ff;
+}
+nav{
+	padding-top: 30px;
+	padding-left: 250px;
+}
+nav li{
+	display: inline;
+	font-size: 25px;
+	padding-right: 100px;
+}
+ul a{
+	text-decoration: none;
+}
+ul a:hover{
+	text-decoration: underline;
+	color: #000066;
+	font-size: 30px;
+}
+i:hover{
+	font-size: 60px;
+}
+header{
+	height: 120px;
+	width: 100%;
+	background-color: #1affff;
+	position: fixed;
+	overflow: hidden;
+}
+.footer2{
+	height: 300px;
+	background-color: #669999;
+}
+.contactlist{
+	text-decoration: none;
+}
+.name{
+	text-shadow: 0px 3px 0px white;
+	font-size: 50px;
+	font-family: sans-serif;
+	padding-bottom: 200px;
+}
+.footerwidget{
+	padding-left: 120px;
+	font-size: 20px;
+	padding-right: 30px;
+	text-decoration: underline;
+}
+.widgetcontent{
+	padding-left: 120px;
+	padding-right: 30px;
+}
+.logo{
+	margin: auto;
+	height: 120px;
+}
+.wicon{
+	color: #00e600;
+	background-color: white;
+	font-size: 50px;
+}
+.ticon{
+	color: white;
+	background-color: #4dd2ff;
+	font-size: 50px;
+}
+.sicon{
+	color: white;
+	background-color: #4dd2ff;
+	font-size: 50px;
+}
+.ficon{
+	color: white;
+	background-color: #0000cc;
+	width: 52px;
+	font-size: 50px;
+}
+.topbar{
+	padding-top: 120px;
+	width: 100%;
+}
+.mainimg{
+	width: 100%;
+	height: 300px;
+}
+.sec
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #e3e3e3;
+}
+.hero{
+	clear: both;
+	background-color: #e3e3e3;
+	width: 100%;
+}
+.heroimg{
+	width: 603px;
+	height: 404px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.num{
+	font-size: 40px;
+	color: green;
+}
+.footer1{
+	text-align: center;
+	height: 80px;
+	padding-top: 30px;
+	font-size: 40px;
+	font-family: sans-serif;
+	background-color: #1affff;
+}
+.calign{
+	text-align: center;
+}
+.caligns{
+	text-shadow: 0px 2px 0px #00ff80;
+	text-align: center;
+	color: #0d0d0d;
+	font-family: cursive;
+}
+.strongd{
+	color: green;
+}
+.padtop{
+	padding-top: 10px;
+}
+.img1{
+	width: 300px;
+	height: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.img5{
+	width: 300px;
+	height: 240px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}

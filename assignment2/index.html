@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>dcarehospital.com</title>
+
+	<!-- Mobile viewport optimized -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		
+	<!--Including bootstrap css-->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+
+	<!--Including external css stylesheet-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<!-- Include  in the head, before any other Javascript -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<!--Main container-->
+	<div class="container" id="main">
+		
+		<div class="navbar navbar-inverse navbar-fixed-top" id="nav_1">
+
+			<!--nav container-->
+			<div class="container">
+
+			<!--btn-navbar is used as the toggle for collapsed navbar content -->
+			<div class="navbar-header">
+			
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      			<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+      			</button>
+
+				<a class="navbar-brand" href="/">DCare</a>
+			</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+   					<ul class="nav navbar-nav">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <strong class="caret"></strong></a>
+								
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">ICare Unit</a>
+									</li>
+									
+									<li>
+										<a href="#">ENT</a>
+									</li>
+									
+									<li>
+										<a href="#">Canteen</a>
+									</li>
+									
+									<li class="divider"></li>
+									
+									<li class="dropdown-header">More Services</li>
+									
+									<li>
+										<a href="#">Blood Bank</a>
+									</li>
+									
+									<li>
+										<a href="#">Pharmacy</a>
+									</li>
+								</ul>
+								<!-- end dropdown-menu -->
+						</li>
+						<li>
+							<a href="#">About Us</a>
+						</li>
+					</ul>
+
+					<form class="navbar-form navbar-right">
+						<input type="text" class="form-control" placeholder="Search this site..." id="searchInput">
+						<button type="submit" class="btn btn-default">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
+					</form><!-- end navbar-form -->				
+			    </div>
+			</div><!--End nav bar container-->
+		</div><!--End nav bar-->
+
+		<!--My Carousel begin-->
+		<div class="carousel slide" id="MyCarousel" data-ride="carousel">
+		
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#MyCarousel"></li>
+				<li data-slide-to="1" data-target="#MyCarousel"></li>
+				<li data-slide-to="2" data-target="#MyCarousel"></li>
+			</ol>
+
+			<!--wrapper for slides-->
+			<div class="carousel-inner">
+
+				<div class="item active">
+					<img class="img-responsive" src="img/main1.jpg">
+					<div class="carousel-caption">
+						<h4>DCare Hospital</h4>
+						<p>"We hope for a healthy world. We Swear We Care"</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+				<div class="item">
+					<img class="img-responsive" src="img/main2.jpg">
+					<div class="carousel-caption">
+						<h4>DCare Hospital</h4>
+						<p>"We hope for a healthy world. We Swear We Care"</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+				<div class="item">
+					<img class="img-responsive" src="img/main3.jpg">
+					<div class="carousel-caption">
+						<h4>DCare Hospital</h4>
+						<p>"We hope for a healthy world. We Swear We Care"</p>
+					</div><!-- end carousel-caption-->
+				</div><!-- end item -->
+
+			</div><!--End carousel inner-->
+
+			<!-- Controls -->
+			<a class="left carousel-control" data-slide="prev" href="#MyCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#MyCarousel"><span class="icon-next"></span></a>
+
+		</div><!--End of carousel end-->
+
+		<!--Three Column Section-->
+		<div class="row box" id="feature_col">
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h2 class="panel-title">Our Vision</h2>
+						<img  class="img-responsive thumbnail" src="img/w1.jpg" alt="image1"/>
+						<p>To be nationally respected for excellence in patient care and most trusted for personalized coordinated care.</p>
+						<p>Our culture of caring will be unmistakable in every personal interaction as we treat individuals with empathy, honesty and openness.</p>
+						<a href="#" target="_blank" class="btn btn-warning btn-block">Learn More About Us</a>
+					</div>
+				</div>
+			</div><!--End of Vision section-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h2 class="panel-title">Our Mission</h2>
+						<img class="img-responsive thumbnail" src="img/w2.jpg" alt="image2"/>
+						<p>To improve the health and healing of the people and communities we serve.</p>
+						<p>By setting and surpassing higher standards, we will continue to build a smarter, faster, more efficient organization that delivers excellent, appropriate care in the right place at the right time.</p>
+						<a href="#" target="_blank" class="btn btn-warning btn-block">Learn More About Us</a>					
+					</div>
+				</div>
+			</div><!--End of Mission section-->
+
+			<div class="col-sm-4 feature">
+				<div class="panel">
+					<div class="panel-heading">
+						<h2 class="panel-title">Our Values</h2>
+						<img  class="img-responsive thumbnail" src="img/w3.jpg" alt="image3"/>
+						<p>Every DCare Hospital staff member touches the lives of the patients and families in our care.</p>
+						<p>We treat those we serve and each other with kindness and compassion and strive to better understand and respond to the needs of a diverse community.
+						<a href="#" target="_blank" class="btn btn-warning btn-block">Learn More About Us</a>
+					</div>
+				</div>
+			</div><!--End of Services section-->
+
+			
+		</div><!--End of three column section-->
+
+		<!--Two column section-->
+		<div class="row thumbnail">
+				
+			<div class="col-sm-4">
+				<img class="img-responsive thumbnail" src="img/13.jpg" alt="img/13.jpg"/>
+			</div><!--End of col_4-->
+			<div class="col-sm-8">
+				<h2><strong class="strongd">Caring You Health Caring Your Business</strong></h2>
+				<p>To maintain our ability to provide the best healthcare possible to New Mexicans, the following payment expectations apply for <strong class="strongd">non-emergency</strong> services for both insured and uninsured patients seeking care at Presbyterian-owned facilities. In the event of an emergency, Presbyterian will provide the necessary medical treatment regardless of one's ability to pay.
+				</p>
+				<p>
+				<strong class="strongd">Important:</strong>If your insurance is not in the Presbyterian Healthcare Services network, you must obtain prior authorization for all services. Prior authorization is not a guarantee of payment or a guarantee of an in-network benefit. Patients outside of their primary network may be subject to a higher co-pay/deductible.</p>
+				<p>Call your insurance provider directly to confirm coverage.
+				</p>
+			</div><!--End of col_8-->
+
+		</div><!--End of two column section-->
+
+		<!--Two column section-->
+		<div class="row thumbnail">
+				
+			<div class="col-sm-8">
+				<h2><strong class="strongd">Providing You The Best Infrastructure</strong></h2>
+				<p>
+					DCare Hospital has its own Blood Bank which runs 24 hrs x 365 days. Where blood and blood components are stored under ideal conditions with temperature control and alarm facilities, following stringent screening procedures.
+				</p>
+				<p>
+					A leading pharmacy with Retail Pharmacy 24/7 with all kinds of Allopathic, Surgical, and Cosmetics stocked in.We take immense pleasure to introduce ourselves as one of the biggest pharmacy with well trained staff and a registered pharmacist available full time to serve you.
+				</p>
+				<p>
+					We are specialized in all kind of ANTI-CANCER medicines. It is a well stocked with all kinds of drugs, medicines including life saving medicines and vaccines with 24hrs cold chain maintained .
+				</p>
+			</div><!--End of col_8-->
+
+			<div class="col-sm-4">
+				<img class="img-responsive thumbnail" src="img/77.jpg" alt="img/77.jpg"/>
+			</div><!--End of col_4-->
+
+		</div><!--End of two column section-->
+
+		<div class="row box">
+			<div class="col-sm-8">
+				<h2 class="strongd">DCare MultiSpeciality Hospital</h2>
+				<P>
+					DCare Super Specialty Hospital, Vaishali, is a 350+ bedded hospital offering unparalleled spectrum of preventive and diagnostic treatment options across specialties like Cardiac Sciences, Aesthetic and reconstructive surgery, Orthopaedics and Joint replacement, Oncology, Nephrology and Kidney transplant. The hospital is accredited by National Accreditation Board for Hospitals and Healthcare Providers (NABH) and NABL.
+				</P>
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li class="active">
+							<a href="#tab1" data-toggle="tab">TIMINGS</a>
+						</li>
+						<li>
+							<a href="#tab2" data-toggle="tab">DIAGONISTIC</a>
+						</li>
+						<li>
+							<a href="#tab3" data-toggle="tab">AMENITIES</a>
+						</li>
+						<li>
+							<a href="#tab4" data-toggle="tab">CONTACT US</a>
+						</li>
+						<li>
+							<a href="#myModal" data-toggle="modal">FEEDBACK</a>
+						</li>					
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane active" id="tab1">
+							<h3>OPD Timings</h3>
+							<p>Mon - Sat : 9 am to 8pm</p>
+							<p>Sunday:- 10 am to 1 pm</p>
+							<p>Specialty open on Sunday OPD-</p>
+							<ul><li>Medicine</li>
+							<li>Orthopedics</li>
+							<li>General Surgery</li>
+							<li>Obs and Gyne</li>
+							<li>Pediatrics </li>
+							</ul><h3>Emergency Services: Available</h3>
+							<h3>Chemist: 24*7</h3>
+							<h3>Valet Parking: Paid Parking Available</h3>
+							<h3>Blood Bank: Yes</h3>
+						</div>
+						<div class="tab-pane" id="tab2">
+							<h3>Diagnostics Services</h3>
+							<p>Laboratory Medicine, Radiology, Non Invasive Cardiology, Nuclear Medicine, PFT, Mammography, BMD.</p>
+							<h3>Health Check Ups</h3>
+							<p>Executive, Executive Plus, Basic, Comprehensive, Comprehensive Plus, Specialty (Cardiac,Cancer), Adolescent, Women Wellness, Corporates, Pre- Employments Checkups, Pre- Policy &amp; Post Policy</p>
+							<h3>Health Check available on Sunday: Not Available</h3>
+						</div>
+						<div class="tab-pane" id="tab3">
+							<h3><a href="#">Blood Bank</a></h3>
+							<h3><a href="#">Cafeteria</a></h3>
+							<h3><a href="#">Waiting Lounge</a></h3>
+							<h3><a href="#">Prayer Room</a></h3>
+							<h3><a href="#">Bank / ATM</a></h3>
+							<h3><a href="#">Business Associates</a></h3>
+							<h3><a href="#">TPAs</a></h3>
+							<h3><a href="#">Alliance Partners</a></h3>
+						</div>
+						<div class="tab-pane" id="tab4">
+							<h3>Contact procedure</h3>
+							<ul><li>In the Quick Enquiry section you can send us a query or report.</li>
+							<li>The IPS team contacts expert consultants to enquire about diagnosis, proposed treatment and estimate.</li>
+							<li>For more queries, a telephonic call can also be arranged</li>
+							<li>On confirming your arrival date and time, necessary arrangements are made for your convenient stay</li>
+							<li>The team completes medical documentation, arranges operation theatre and organizes your stay in Hospital/Guest House/Hotel post your treatment.</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>	
+			</div><!--End of col_8-->
+			<div class="col-sm-4"  id="section_1">
+				<img class="img-responsive thumbnail" src="img/10.jpg" alt="" />
+				<ul>
+					<li><a class="active" href="#">The Da Vinci Xi Robotic System</a></li>
+					<li><a href="#">HIPEC</a></li>
+					<li><a href="#">Cochlear Implant</a></li>					
+					<li><a href="#">ECMO</a></li>					
+					<li><a href="#">BMT</a></li>					
+					<li><a href="#">ENT</a></li>
+				</ul>
+			</div><!--End of col-4-->
+		</div><!--End of section-->
+		<!--Modal menu begins here-->
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>							
+						<h4 class="modal-title">Send Us Your FeedBacks</h4>
+					</div><!-- end modal-header -->
+					<div class="modal-body">				
+						<form class="form-horizontal">
+						<div class="form-group">
+							<label class="col-lg-2 control-label" for="inputName">Name</label>
+							<div class="col-lg-10">
+								<input class="form-control" id="inputName" placeholder="Name" type="text">
+							</div>
+						</div>
+														
+						<div class="form-group">
+							<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+							<div class="col-lg-10">
+								<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+							</div>
+						</div>
+														
+						<div class="form-group">
+							<label class="col-lg-2 control-label" for="inputMessage">Comments</label>
+							<div class="col-lg-10">
+								<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+							</div>
+						</div>
+						</form>
+					</div><!-- end modal-body -->
+												
+					<div class="modal-footer">
+						<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Send</button>
+					</div><!-- end modal-footer -->
+				</div><!-- end modal-content -->
+			</div><!-- end modal-dialog -->
+		</div><!-- end myModal -->
+	</div><!--End main container-->
+	
+	<!--Footer Begins here-->
+	<div id="Upperfooter" class="container-fluid">
+		<h1>Queries? We are here to help You!</h1>
+	</div><!--Upper footer-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h6>Copyright &copy 2016{anupama}</h6>
+				</div><!--End of col2-->
+
+				<div class="col-sm-3">
+					<h6>Useful Information</h6>
+					<ul class="unstyled">
+						<li><a href="#">Download hospital profile</a></li>
+						<li><a href="#">24/7 service(contact)</a></li>
+						<li><a href="#">Blood Bank Facility</a></li>
+						<li><a href="#">Delivery Of Medicine</a></li>
+					</ul>
+				</div><!--End of col3-->
+
+				<div class="col-sm-3">
+					<h6>Contact Info</h6>
+					<ul class="unstyled">
+						<li>Email:dcare@gmail.in</li>
+						<li>Phone:800-785-4355</li>
+						<li>Fax:801-567-7842</li>
+						<li>Map:View Map</li>
+					</ul>
+				</div><!--End of col3-->
+
+				<div class="col-sm-2">
+					<h6>Follow Us</h6>
+					<ul class="unstyled">
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Instagram</a></li>
+						<li><a href="#">Google Plus</a></li>
+					</ul>
+				</div><!--End of col2-->
+
+				<div class="col-sm-2">
+					<h6>Coded with <span class="glyphicon glyphicon-heart"></span> by Anu</h6>
+				</div><!--End of col2-->
+			</div><!--End of row-->
+		</div><!--End of container-->
+	</footer>
+</body>
+</html>
